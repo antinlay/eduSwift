@@ -16,7 +16,7 @@ let draftMessage = Message.draft(userId: "2", date: Date())
 func logMessage(message: Message) {
     switch message {
     case let .text(userId: id, contents: contents, date: date):
-        print("[\(date)] User \(id) sends message: \(contents)")
+        print("[\(date)] User \(id) sends message: \(contents)")``
     case let .draft(userId: id, date: date):
         print("[\(date)] User \(id) is drafting a message")
     case let .join(userId: id, date: date):
