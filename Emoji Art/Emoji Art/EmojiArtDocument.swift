@@ -9,6 +9,7 @@ import SwiftUI
 
 class EmojiArtDocument: ObservableObject {
     typealias Emoji = EmojiArt.Emoji
+    
     @Published private var emojiArt = EmojiArt()
     
     init() {

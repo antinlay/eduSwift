@@ -14,6 +14,7 @@
 		5C3AD7842AEA66A900B0EA28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3AD7832AEA66A900B0EA28 /* Preview Assets.xcassets */; };
 		5C3AD78B2AEA675400B0EA28 /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3AD78A2AEA675400B0EA28 /* EmojiArt.swift */; };
 		5C3AD78D2AEA684300B0EA28 /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3AD78C2AEA684300B0EA28 /* EmojiArtDocument.swift */; };
+		BAB414312B0B57D000A39D04 /* Sturldata.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB414302B0B57D000A39D04 /* Sturldata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		5C3AD7832AEA66A900B0EA28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C3AD78A2AEA675400B0EA28 /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 		5C3AD78C2AEA684300B0EA28 /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
+		BAB414302B0B57D000A39D04 /* Sturldata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sturldata.swift; sourceTree = "<group>"; };
+		BAB414322B0B7A4A00A39D04 /* Emoji-Art-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Emoji-Art-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		5C3AD77B2AEA66A700B0EA28 /* Emoji Art */ = {
 			isa = PBXGroup;
 			children = (
+				BAB414322B0B7A4A00A39D04 /* Emoji-Art-Info.plist */,
+				BAB414302B0B57D000A39D04 /* Sturldata.swift */,
 				5C3AD77C2AEA66A700B0EA28 /* Emoji_ArtApp.swift */,
 				5C3AD78A2AEA675400B0EA28 /* EmojiArt.swift */,
 				5C3AD78C2AEA684300B0EA28 /* EmojiArtDocument.swift */,
@@ -150,6 +155,7 @@
 				5C0DFB712AEC08A900A90B16 /* Extensions.swift in Sources */,
 				5C3AD78B2AEA675400B0EA28 /* EmojiArt.swift in Sources */,
 				5C3AD77D2AEA66A700B0EA28 /* Emoji_ArtApp.swift in Sources */,
+				BAB414312B0B57D000A39D04 /* Sturldata.swift in Sources */,
 				5C3AD78D2AEA684300B0EA28 /* EmojiArtDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +287,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Emoji Art/Preview Content\"";
+				DEVELOPMENT_TEAM = N9NN3CSS37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Emoji-Art-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,8 +317,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Emoji Art/Preview Content\"";
+				DEVELOPMENT_TEAM = N9NN3CSS37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Emoji-Art-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

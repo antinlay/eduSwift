@@ -9,10 +9,16 @@ import SwiftUI
 
 @main
 struct Emoji_ArtApp: App {
+    @StateObject var defaultDocument = EmojiArtDocument()
+    
     var body: some Scene {
-//        @StateObject var defaultDocument = EmojiArtDocument()
+
         WindowGroup {
-            EmojiArtDocumentView(document: EmojiArtDocument())
+            if #available(iOS 16.0, *) {
+                EmojiArtDocumentView(document: defaultDocument)
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
 }
